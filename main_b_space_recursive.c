@@ -3,8 +3,10 @@
 
 int main()
 {
-  long long int fibo = recursive_fibo(40);
+  long long int fibo = iterative_fibo(100);
   printf("%lld", fibo);
+
+  getchar();
 
   return 0;
 }

@@ -5,10 +5,6 @@ long long int iterative_fibo(long long int n) {
   long long int b = 1;
   long long int output;
 
-  if (n < 0) {
-    return -1;
-  }
-
   if (n == 0) {
     return 0;
   }
